@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { MessageServiceContextProvider } from './box/MessageServiceContext';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <MessageServiceContextProvider>
+      <App />
+    </MessageServiceContextProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

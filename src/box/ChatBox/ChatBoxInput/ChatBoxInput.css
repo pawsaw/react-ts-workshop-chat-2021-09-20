@@ -1,0 +1,17 @@
+.chatBoxInput {
+  width: 100%;
+  display: flex;
+}
+
+.chatBoxInput form {
+  width: 100%;
+  display: flex;
+}
+
+.chatBoxInput input {
+  flex: 1;
+}
+
+.chatBoxInput button {
+
+}
